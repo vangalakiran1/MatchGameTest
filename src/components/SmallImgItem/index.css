@@ -1,0 +1,20 @@
+.thumbnail-item-img {
+  width: 100%;
+  max-width: 80px;
+  margin: 5px;
+  list-style: none;
+}
+.thumbnail-item-img > button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-item-img {
+    width: 100%;
+    max-width: 100px;
+    margin: 5px;
+  }
+}
